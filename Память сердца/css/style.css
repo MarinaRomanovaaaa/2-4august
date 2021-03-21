@@ -1,0 +1,124 @@
+*
+{
+padding: 0;
+margin: 0;
+border: 0;
+}
+*,*:before,*:after{
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+:focus,:active{outline:thistle;}
+a:focus,a:active{outline: white;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+height: 100%;
+width: 100%;
+font-size: 100%;
+line-height: 1;
+font-size: 14px;
+-ms-text-size-adjust: 100%;
+-moz-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+ul li{
+margin:0;
+padding:0;
+display:block;}
+
+body{    font-family: 'Bad script';
+}
+.page1_Marina{
+    background-image: url(../img/старая\ бумага\ 4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.page2_Marina{
+    background-image: url(../img/старая\ бумага\ 4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.container{
+        max-width: 1230px;
+        margin: 0 auto;
+        padding: 0 15px;
+}
+.title_Marina{
+font-family: Bad Script;
+font-size: 36px;
+line-height: 151.58%;
+letter-spacing: 0.235em;
+}
+.text1_Marina{width: 613px;
+height: 291px;
+left: 285px;
+top: 3958px;
+font-family: Bad Script;
+font-weight: normal;
+font-size: 32px;
+line-height: 151.58%;
+text-align: center;
+letter-spacing: 0.15em;
+margin-top: 50px;
+left: 285px;
+}
+.text2_Marina{
+    width: 1095px;
+    height: 288px;
+       left: 285px;
+    top: 3958px;
+    font-family: Bad Script;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 151.58%;
+    text-align: center;
+    letter-spacing: 0.15em;
+    margin-top: 50px;
+    
+ }
+        
+    p{
+        
+            animation-duration: 4.5s;
+            animation-name: fadeInDown;}
+
+    @keyframes fadeInDown{
+        from {
+        margin-left: 100%;
+        width: 300%;
+        }
+        
+        to {
+        margin-left: 0%;
+        width: 100%;
+        }
+        }
+            
+        
+   .img2_Marina{
+      margin-left: 200px;
+      padding-bottom: 20px;
+   }
+
+   .img1_Marina{
+    position: absolute;
+    left: 820px;
+     width: 500px;
+    height: 500px;
+    
+    
+   }
